@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Force Persian Keyboard Demo</title>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="forcePersian.js"></script>
+</head>
+<body>
+    <p>
+        Name: 
+        <input type="text" placeholder="Type Something..." />
+    </p>
+    <p>
+        Family: 
+        <input type="text" placeholder="Type Something..." />
+    </p>
+</body>
+
+<script>
+    $(function() {
+        $('input').forcePersian();
+    });
+</script>
+</html>
