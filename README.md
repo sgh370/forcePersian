@@ -1,5 +1,7 @@
 # Force Persian Keyboard
 
+With the help of this plugin, you can force the inputs or textareas to type in Persian with any type of keyboard layout.
+
 ### How to use
 
 - **Put jQuery in your head section or footer of page**: 
