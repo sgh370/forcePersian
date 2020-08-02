@@ -1,4 +1,4 @@
-(function($){
+(function($) {
     $.forcePersian = function(el, options){
         var base = this;
         
